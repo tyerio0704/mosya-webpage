@@ -1,0 +1,84 @@
+h1.title{
+    width: 120px;
+    line-height: 1px;
+    padding: 10px 0;
+}
+img{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.wrapper{
+    max-width: 960px;
+    padding: 0 4%;
+    text-align: center;
+}
+
+header li{
+    margin-left: 200px;
+}
+#header ul{
+    display: flex;
+    padding: 10px 0;
+    list-style: none;
+
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+main h2#mainvisual img{
+    width: 100%;
+    height: auto;
+}
+
+h2#about{
+    text-align: center;
+    text-decoration: underline;
+}
+div#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#content img{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    margin-right: 30px;
+}
+.text-title{
+    text-align: left;
+}
+h2#bicycle-title{
+    text-align: center;
+    text-decoration: underline;
+}
+section#bicycle img{
+    max-width: 80%;
+}
+.wrapper{
+    text-align: center;
+}
+
+section#bicycle ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+footer p{
+    text-align: center;
+}
